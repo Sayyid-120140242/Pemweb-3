@@ -90,7 +90,7 @@ function tombol() {
     </ul>
   </nav>
   <div id="content">${tentangTOKO}${ProdukTOKO}${SurveyTOKO}</div> `;
-  const footer = document.getElementById("footer");
+  const footer = document.getElementById("IG");
   footer.innerHTML =
     "<a href='https://www.instagram.com/khalida.collectionss/'>instagram</a>";
 }
