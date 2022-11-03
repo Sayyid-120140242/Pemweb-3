@@ -1,0 +1,77 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+button {
+  background-color: rgb(8, 15, 1);
+  width: 10%;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+nav {
+  display: flex;
+  height: 10px;
+  background-color: #f504add4;
+  align-items: center;
+  font-size: 15px;
+  width: 80%;
+  border-radius: 10px;
+}
+nav ul a {
+  color: rgb(10, 7, 7);
+  text-decoration: none;
+}
+div.text {
+  background-color: #f506a5;
+  border-radius: 20px;
+  padding: 20px;
+  width: 80%;
+  font-size: 18px;
+}
+.nama label {
+  display: block;
+}
+.nama,
+.survey,
+.pil {
+  margin-bottom: 20px;
+}
+table {
+  border-collapse: collapse;
+  width: 75%;
+  background-color: white;
+  border: none;
+}
+table.main {
+  border: none;
+}
+table td,
+table th {
+  font-size: 15px;
+  padding: 10px;
+}
+table thead {
+  background-color: #f50a93d4;
+  color: #fff;
+}
+div.survey {
+  background-color: #f00486d4;
+  border-radius: 15px;
+  width: 50%;
+}
+button.kirim {
+  background-color: #f8f409;
+  width: 90%;
+  color: rgb(10, 1, 1);
+  height: 30px;
+  border: none;
+  border-radius: 6px;
+}
